@@ -4,6 +4,16 @@ primary-color = #333333
 secondary-color = #8841DA
 clear-color = #ffffff
 
+container()
+  display flex 
+  width 90%
+  margin 0 auto
+  padding 30px 0
+
+box-shadow()
+  background-color clear-color
+  box-shadow 0px 20px 33px  0px rgba(0, 0, 0, .20)
+
 *
   box-sizing border-box
   
@@ -28,10 +38,7 @@ body
     font-size 25px
 
 .encabezado--con-filtros
-  display flex 
-  width 90%
-  margin 0 auto
-  padding 30px 0
+  container()
   h2
     margin-top 10px
     text-transform uppercase
@@ -43,11 +50,27 @@ body
     height 75px
     padding 20px
     margin-left auto
+    box-shadow()
     span
       text-transform uppercase
       font-family secondary-font
     a
       margin-left 20px
+      color primary-color
+      
+.contenido
+  margin-bottom 400px
+  justify-content space-evenly
+  contenedor()
+
+.caja
+  max-width 400px
+  box-shadow()
+  &__contenido
+    padding 20px
+    background-color clear-color
+    span
+      text-transform uppercase
 
   
   
