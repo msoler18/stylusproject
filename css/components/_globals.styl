@@ -22,6 +22,14 @@ for header in 3 2 1
     font-size 35px - (5*header)
     margin:0
 
+titles(font)
+  if font == primary-font
+    font-family primary-font
+  else
+    font-family secondary-font
+    color secondary-color
+    text-transform uppercase
+
 *
   box-sizing border-box
   

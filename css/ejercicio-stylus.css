@@ -81,12 +81,10 @@ body {
   background-color: #fff;
 }
 .caja__contenido span {
-  text-transform: uppercase;
-  color: #8841da;
   font-family: 'Oswald', sans-serif;
+  color: #8841da;
   text-transform: uppercase;
   font-weight: normal;
-  font-family: 'Oswald', sans-serif;
 }
 .estadistica--articulos {
   height: 70px;
